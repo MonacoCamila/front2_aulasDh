@@ -11,3 +11,18 @@ window.addEventListener('load', function() {
 
 })
 
+//EVENTOS DE TECLADO
+
+// usuario aperta uma tecla - evento de teclado (keydown) com uma funcao
+
+document.addEventListener('keydown', function(apertar) {
+    if(apertar.key === 'c'){
+        console.log('apertou a letra c');
+    }
+})
+
+// soltar a tecla (keyup) com uma funcao 
+
+
+
+
