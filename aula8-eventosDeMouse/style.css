@@ -1,0 +1,16 @@
+#botao-js-esconder, #botao-js-exibir{
+    margin-top: 20px;
+
+}
+
+#modal{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: aqua;
+    margin-top: 20px;
+}
+
+body{
+    background-color: brown;
+}
