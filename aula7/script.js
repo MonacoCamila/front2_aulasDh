@@ -22,7 +22,7 @@ function cliqueiEnviar (){
     let image = document.createElement("img")
     image.src = input1.value;
 
-    divGaleria.appendChild(img);
+    divGaleria.appendChild(image);
 
     
     }
@@ -36,6 +36,15 @@ function cliqueiEnviar (){
         input1.removeAttribute('disabled');
     
     }
+
+// //template String
+// console.log(
+//     `
+//         input1: ${input1.value}, 
+//         input2: ${input2.value}, 
+//         input3: ${input3.value}
+//     `
+// );
     
 
     
